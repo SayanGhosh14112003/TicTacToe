@@ -1,0 +1,69 @@
+.container{
+    margin-top: 100px;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+}
+.box{
+ column-gap: 0px;
+ row-gap: 0px;
+ height: 100px;
+ width:100px;
+ font-family: 'Pacifico', cursive;
+ font-size: xx-large;
+ color:red;
+}
+.box:hover{
+  background-color: orange;
+}
+
+.game{
+  background-color: rgb(236, 250, 45);
+  border-spacing: 0px;
+  cursor: pointer;
+  
+}
+#result{
+background-color: aqua;
+padding:5px;
+font-family: Arial, Helvetica, sans-serif;
+color:blueviolet
+}
+#reset{
+  margin-top:10px;
+  cursor:pointer;
+  padding: 3px;
+  color:white;
+  background-color: blue;
+}
+#reset:hover{
+  color:blue;
+  background-color: white;
+  
+}
+.r{
+ border-right: 2px solid brown;
+}
+.t{
+  border-top:2px solid brown
+}
+#nav{
+  font-family: 'Tourney', cursive;
+  background-color: rgb(180, 104, 250);
+  height:50px;
+  padding-top: 10px;
+  padding-left:10px;
+}
+#k{
+  display: flex;
+  justify-content: center;
+}
+#l{
+  display: flex;
+  justify-content: center;
+}
