@@ -22,7 +22,7 @@ for(let i=0;i<9;i++){
       aud.play();
       changecolor(boxes[i]);
       checkwinner();
-      checkdraw()
+     if(!win)checkdraw()
       if(!draw && !win)changrturn();
       if(!win && !draw)result.innerHTML="Turn For "+turn;
     }
