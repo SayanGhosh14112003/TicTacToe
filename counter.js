@@ -19,6 +19,7 @@ for(let i=0;i<9;i++){
   boxes[i].onclick=()=>{
     if(boxes[i].innerHTML=="" && !win){
       boxes[i].innerHTML=turn;
+      aud.load();
       aud.play();
       changecolor(boxes[i]);
       checkwinner();
